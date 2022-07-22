@@ -72,6 +72,7 @@
 
 .home_content h1{
     font-size: 4rem;
+    margin: 1rem 0;
 }
 
 .home_content span{
@@ -80,6 +81,7 @@
 
 .btn-1{
     padding: 1rem 2rem;
+    border: 1px solid rgb(3, 97, 97);
     background-color: transparent;
     cursor: pointer;
 }
@@ -274,3 +276,77 @@
 .contact-form .btn-2{
     padding: 1rem 3rem;
 }
+/* Footer */
+.footer {
+    width: 100%;
+    display: flex;
+    background-color: rgb(242, 240, 240);
+    padding: 20px;
+  }
+  
+  .footer-row {
+    flex-wrap: wrap;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .footer-col {
+    font-size: 1.05rem;
+    margin: 0 1rem 1rem 1rem;
+  }
+  
+  .footer-col p {
+    color: #000;
+    font-weight: initial;
+    margin: 0;
+  }
+  
+  .footer-col a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .footer-col h4 {
+    font-size: 1.1rem;
+    color: balck;
+    margin-bottom: 35px;
+    position: relative;
+  }
+  
+  .footer-col h4::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: rgb(3, 97, 97);
+    height: 2px;
+    box-sizing: border-box;
+    width: 100px;
+  }
+  
+  .footer-col li {
+    padding-top: 10px;
+    margin-bottom: 10px;
+    list-style: none;
+    transition: 0.25s linear;
+  }
+  
+  .footer-col li:hover {
+    transform: translate(8px);
+  }
+  
+  .footer-col a:hover {
+    color: grey;
+  }
+  
+  .social-links i {
+    width: 40px;
+    height: 30px;
+  }
+  
+  .copy { /* Copyright */
+    text-align: center;
+    color: grey;
+    margin: 2rem 0;
+  }
