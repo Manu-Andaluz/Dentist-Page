@@ -53,7 +53,7 @@ h1{
 
 /* Home */
 .home {
-  min-height: 700px;
+  height: 90vh;
   display: flex;
   background-color: rgba(161, 161, 161, 0.116);
 }
