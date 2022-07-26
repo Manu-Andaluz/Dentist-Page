@@ -42,8 +42,8 @@
 }
 
 .nav_logo a{
-    font-size: 1.4rem;
-    font-weight: 500;
+    font-size: 1.3rem;
+    font-weight: 600;
     color: black;
     text-decoration: none;
 }
@@ -58,6 +58,8 @@
 .nav_links a{
     text-decoration: none;
     color: black;
+    font-size: 1rem;
+    font-weight: 550;
 }
 
 .nav_links a:hover{
@@ -116,37 +118,58 @@
 .btn-1{
     font-size: 0.9rem;
     padding: 1rem 2rem;
-    border: 2px solid rgb(3, 97, 97);
-    background-color: transparent;
+    border: 2px solid rgb(219, 219, 219);
+    border-radius: 1.5rem;
+    background-color: rgb(236, 236, 236);
     cursor: pointer;
 }
+
 .btn-1:hover{
-    transition: 0.2s;
-    background-color: rgba(235, 235, 235, 0.527);
+    transition: .5s;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.btn-secondary{
+    color: white;
+    background-color: rgb(3, 97, 97);
+}
+
+.btn-secondary:hover{
+    transition: .5s;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 /* Promotion */
 .container_promotions{
-    margin: 8rem 0;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    align-items: center;
     text-align: center;
-    padding: 5rem 0;
+    gap: 3rem;
+    margin: 8rem 0rem;
+    padding: 5rem;
     background-color: rgb(3, 97, 97);
     color: white;
 }
 
-.container_promotions h2{
+.promotion{
+    width: 100%;
+}
+
+.promotion h2{
     margin-bottom: 1rem;
 }
 
-.container_promotions p{
+.promotion p{
     margin-bottom: 1rem;
 }
 
-.container_promotions span{
+.promotion span{
     margin-left: 5px;
 }
 
-.container_promotions button{
+.promotion button{
     cursor: pointer;
     font-size: 1rem;
     height: 50px;
@@ -158,6 +181,14 @@
 .container_promotions button:hover{
     background-color: rgb(218, 218, 218);
     transition: 0.2s ;
+}
+
+.promotion-img{
+    max-width: 100%;
+}
+
+@media (min-width: 1010px) {
+    .container_promotions { grid-template-columns: repeat(2, 1fr); }
 }
 
 /* Cards */
@@ -398,7 +429,13 @@
   
 @media (max-width:462px) {
     .btn-1{
-        margin-bottom: 1rem;
+        margin: 0.5rem 0;
+    }
+}
+
+@media (max-width:662px) {
+    .home_content{
+        text-align: left;
     }
 }
 
@@ -481,7 +518,9 @@
     }
 
     .container-section{
-        background-image: url(images/smile\ mountain.jpg);
+        background-image: url(images/cepillo.jpg);
+        background-size: cover;
+        background-position: left;
     }
 
     
