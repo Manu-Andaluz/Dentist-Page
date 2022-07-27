@@ -243,9 +243,11 @@
 /* About */
 
 .container_about{
-    display: flex;
-    justify-content: space-around;
-    margin: 8rem 5rem;
+    display: grid;
+    gap: 3rem;
+    justify-content: center;
+    width: 75%;
+    margin: 8rem auto;
     padding: 5rem;
     flex-wrap: wrap;
     align-items: center;
@@ -253,14 +255,13 @@
 }
 
 .about_img{
-    max-height: 500px;
-    max-width: 500px;
-    min-width: 100px;
+    max-width: 100%;
+    width: 350px;
+    margin: 0 auto;
 }
 
 .about_content{
     max-width: 500px;
-    
 }
 
 .about_content h3{
@@ -508,11 +509,15 @@
         background-size: cover;
         background-position: left;
     }
-
     
+}
+
+@media (max-width:1010px){
+    .container_about{width: 90%;}
 }
 
 @media (min-width: 1010px) {
     .container_promotions { grid-template-columns: repeat(2, 1fr); }
+    .container_about{grid-template-columns: repeat(2,1fr);}
 }
 
