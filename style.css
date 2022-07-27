@@ -186,11 +186,6 @@
 .promotion-img{
     max-width: 100%;
 }
-
-@media (min-width: 1010px) {
-    .container_promotions { grid-template-columns: repeat(2, 1fr); }
-}
-
 /* Cards */
 
 .container_cards{
@@ -433,6 +428,7 @@
     }
 }
 
+
 @media (max-width:662px) {
     .home_content{
         text-align: left;
@@ -500,16 +496,6 @@
         margin-top: 2rem;
     }
 
-    /* About */
-
-    .container_about{
-    padding: 2rem;
-    }
-
-    .container_about{
-        margin: 8rem 1rem;
-    }
-
 }
 
 @media (max-width:992px) {
@@ -526,9 +512,7 @@
     
 }
 
-@media (max-width:1044px) {
-
-    .container_about img{
-        margin-bottom: 2rem;
-    }
+@media (min-width: 1010px) {
+    .container_promotions { grid-template-columns: repeat(2, 1fr); }
 }
+
