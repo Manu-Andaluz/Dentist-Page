@@ -86,7 +86,7 @@
     height: 90vh;
     display: flex;
     align-items: center;
-    margin-bottom: 13rem;
+    margin-bottom: 5rem;
 }
 
 .banner_home {
@@ -144,12 +144,8 @@
 /* Promotion */
 .container_promotions {
     width: 100%;
-    margin: 0 auto;
-    display: grid;
-    align-items: center;
+    margin-bottom: 5rem;
     text-align: center;
-    gap: 3rem;
-    margin: 8rem 0rem;
     padding: 5rem;
     background-color: rgb(3, 97, 97);
     color: white;
@@ -157,6 +153,7 @@
 
 .promotion {
     width: 100%;
+    margin: 0 auto;
 }
 
 .promotion h2 {
@@ -183,10 +180,6 @@
 .container_promotions button:hover {
     background-color: rgb(218, 218, 218);
     transition: 0.2s;
-}
-
-.promotion-img {
-    max-width: 100%;
 }
 
 /* Cards */
@@ -533,8 +526,11 @@
 }
 
 @media (max-width:1010px) {
+
+    /* About */
     .container_about {
-        width: 90%;
+        width: 100%;
+        padding: 5rem 2rem;
     }
 
     /* Promotion */
