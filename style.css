@@ -144,6 +144,7 @@
 /* Promotion */
 .container_promotions {
     width: 100%;
+    margin-top: 10rem;
     margin-bottom: 5rem;
     text-align: center;
     padding: 5rem;
