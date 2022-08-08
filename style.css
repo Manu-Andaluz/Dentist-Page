@@ -83,7 +83,7 @@
 /* Home */
 
 .container-section {
-    height: 90vh;
+    min-height: 90vh;
     display: flex;
     align-items: center;
     margin-bottom: 5rem;
