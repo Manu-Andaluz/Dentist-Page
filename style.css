@@ -82,37 +82,37 @@
 
 /* Home */
 
-.container-section {
+.front_page {
     display: flex;
     align-items: center;
     margin-bottom: 5rem;
 }
 
-.banner_home {
+.banner_front_page {
     background-color: rgba(230, 229, 227, 255);
     max-height: 100%;
     max-width: 550px;
 }
 
-.banner_home img {
+.banner_front_page img {
     max-width: 100%;
 
 }
 
-.home_content {
+.content_front_page {
     margin-left: 5rem;
 }
 
-.home_content p {
+.content_front_page p {
     font-size: 1.2rem;
 }
 
-.home_content h1 {
+.content_front_page h1 {
     font-size: 4rem;
     margin: 1rem 0;
 }
 
-.home_content span {
+.content_front_page span {
     color: rgb(3, 97, 97);
 }
 
@@ -429,7 +429,7 @@
 
 
 @media (max-width:662px) {
-    .home_content {
+    .content_front_page {
         text-align: left;
     }
 }
@@ -476,16 +476,16 @@
     }
 
     /* Home */
-    .home_content {
+    .content_front_page {
         width: 90%;
         margin: 0 auto;
     }
 
-    .home_content p {
+    .content_front_page p {
         font-size: 1.2rem;
     }
 
-    .home_content h1 {
+    .content_front_page h1 {
         font-size: 2rem;
     }
 
@@ -522,11 +522,11 @@
 }
 
 @media (max-width:992px) {
-    .banner_home {
+    .banner_front_page {
         display: none;
     }
 
-    .container-section {
+    .front_page {
         min-height: 90vh;
         background-image: url(images/cepillo.jpg);
         background-size: cover;
