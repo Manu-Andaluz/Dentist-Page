@@ -26,6 +26,13 @@
     background-color: rgb(97, 97, 97);
 }
 
+:root {
+    --font-color: black;
+    --secundary-color: rgb(3, 97, 97);
+    --secondary-color-btn: rgb(6, 175, 175);
+    --promotion-bnt-color: white;
+}
+
 /* NavBar */
 .nav_bar {
     height: 10vh;
@@ -44,7 +51,7 @@
 .nav_logo a {
     font-size: 1.3rem;
     font-weight: 600;
-    color: black;
+    color: var(--font-color);
     text-decoration: none;
 }
 
@@ -57,14 +64,9 @@
 
 .nav_links a {
     text-decoration: none;
-    color: black;
+    color: var(--font-color);
     font-size: 1rem;
     font-weight: 550;
-}
-
-.nav_links a:hover {
-    transition: .4s;
-    color: rgb(6, 175, 175);
 }
 
 .burger {
@@ -105,9 +107,11 @@
 
 .content_front_page p {
     font-size: 1.2rem;
+    color: var(--font-color);
 }
 
 .content_front_page h1 {
+    color: var(--font-color);
     font-size: 4rem;
     margin: 1rem 0;
 }
@@ -119,7 +123,7 @@
 .btn-1 {
     font-size: 0.9rem;
     padding: 1rem 2rem;
-    border: 2px solid rgb(219, 219, 219);
+    border: 1px solid rgb(219, 219, 219);
     border-radius: 1.5rem;
     background-color: rgb(236, 236, 236);
     cursor: pointer;
@@ -127,17 +131,18 @@
 
 .btn-1:hover {
     transition: .5s;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-color: rgb(94, 94, 94);
 }
 
 .btn-secondary {
     color: white;
-    background-color: rgb(3, 97, 97);
+    background-color: var(--secondary-color-btn);
+    border: 1px solid var(--secondary-color-btn);
 }
 
 .btn-secondary:hover {
     transition: .5s;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-color: rgb(94, 94, 94);
 }
 
 /* Promotion */
@@ -147,7 +152,7 @@
     margin-bottom: 5rem;
     text-align: center;
     padding: 5rem;
-    background-color: rgb(3, 97, 97);
+    background-color: var(--secundary-color);
     color: white;
 }
 
@@ -173,7 +178,7 @@
     font-size: 1rem;
     height: 50px;
     padding: 0 3rem;
-    background-color: white;
+    background-color: var(--promotion-bnt-color);
     border: none;
 }
 
@@ -224,8 +229,8 @@
 .btn-2 {
     padding: 0.5rem 3rem;
     font-size: 0.9rem;
-    background-color: rgb(6, 175, 175);
-    border: 1px solid rgb(6, 175, 175);
+    background-color: var(--secondary-color-btn);
+    border: 1px solid var(--secondary-color-btn);
     color: white;
     cursor: pointer;
 }
@@ -387,7 +392,7 @@
     position: absolute;
     left: 0;
     bottom: -10px;
-    background-color: rgb(3, 97, 97);
+    background-color: var(--secundary-color);
     height: 2px;
     box-sizing: border-box;
     width: 100px;
