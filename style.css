@@ -145,48 +145,6 @@
     border-color: rgb(94, 94, 94);
 }
 
-/* Promotion */
-.container_promotions {
-    width: 100%;
-    margin-top: 10rem;
-    margin-bottom: 5rem;
-    text-align: center;
-    padding: 5rem;
-    background-color: var(--secundary-color);
-    color: white;
-}
-
-.promotion {
-    width: 100%;
-    margin: 0 auto;
-}
-
-.promotion h2 {
-    margin-bottom: 1rem;
-}
-
-.promotion p {
-    margin-bottom: 1rem;
-}
-
-.promotion span {
-    margin-left: 5px;
-}
-
-.promotion button {
-    cursor: pointer;
-    font-size: 1rem;
-    height: 50px;
-    padding: 0 3rem;
-    background-color: var(--promotion-bnt-color);
-    border: none;
-}
-
-.container_promotions button:hover {
-    background-color: rgb(218, 218, 218);
-    transition: 0.2s;
-}
-
 /* Cards */
 
 .container_cards {
@@ -547,17 +505,9 @@
         width: 100%;
         padding: 5rem 2rem;
     }
-
-    /* Promotion */
-    .promotion-img {
-        display: none;
-    }
 }
 
 @media (min-width: 1010px) {
-    .container_promotions {
-        grid-template-columns: repeat(2, 1fr);
-    }
 
     .container_about {
         grid-template-columns: repeat(2, 1fr);
