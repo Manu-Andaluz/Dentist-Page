@@ -1,5 +1,5 @@
 # Dentist Page Model for M.A Odontología Integrada
 
-This project is made for the company: M.A Odontología Integrada.I still need to do the backend part, that's why it's still under construction.
+This project is made for the company: M.A Odontología Integrada with JavaScript, HTML and CSS.
 
-Este proyecto está hecho para la empresa: M.A Odontología Integrada. Aún me falta hacer la parte de backend, por eso aún está en construcción.
+Este proyecto está hecho para la empresa: M.A Odontología Integrada con JavaScript, HTML y CSS
