@@ -28,6 +28,7 @@
 
 :root {
     --font-color: black;
+    --hover-font-color: rgb(155, 154, 154);
     --secundary-color: rgb(3, 97, 97);
     --secondary-color-btn: rgb(6, 175, 175);
     --promotion-bnt-color: white;
@@ -35,13 +36,13 @@
 
 /* NavBar */
 .nav_bar {
-    height: 10vh;
+    height: 15vh;
     display: flex;
     position: relative;
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0 2px 10px 0 rgb(0 0 0 / 10%);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 .nav_logo {
@@ -67,7 +68,13 @@
     color: var(--font-color);
     font-size: 1rem;
     font-weight: 550;
+    transition: all .3s linear;
 }
+
+.nav_links a:hover {
+    color: var(--hover-font-color);
+}
+
 
 .burger {
     display: none;
@@ -88,17 +95,16 @@
     display: flex;
     align-items: center;
     margin-bottom: 5rem;
+    height: 85vh;
 }
 
 .banner_front_page {
     background-color: rgba(230, 229, 227, 255);
-    max-height: 100%;
-    max-width: 550px;
+    display: flex;
 }
 
 .banner_front_page img {
-    max-width: 100%;
-
+    height: 85vh;
 }
 
 .content_front_page {
